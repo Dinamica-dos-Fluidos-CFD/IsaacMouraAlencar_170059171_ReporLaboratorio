@@ -8,8 +8,8 @@ Problema 1: Uma instalação de bombeamento tem apresentado problemas em uma se�
 - Usando a simulação apresentada, realizar um estudo paramétrico do do tamanho dos elementos de malha para avaliar se o cenário acima é normal ou não para esta instalação.
 
 
-# Objetivo:
-Aferir a perda de carga na tubulação descrita acima, comparar com o valor esperado, e justificar qualquer divergência de resultados se existente.
+# Requisitos:
+Aferir a perda de carga na e vazão na instalação descrita, comparar com os valores esperados, justificar qualquer divergência de resultados se existente e com esses resultados realizar um estudo paramétrico da tensão cisalhante na parede do tubo e aferir se tal cenário é normal para esta instalação.
 
 # Simplificações utilizadas na simulação:
 Escoamento laminar e isolado(desconsiderando quaisquer trocas de calor com o ambiente)
@@ -17,10 +17,6 @@ Escoamento laminar e isolado(desconsiderando quaisquer trocas de calor com o amb
 # Geometria utilizada:
 ![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/geometria.png)
 
-# Detalhes da malha utilizada:
-Devido a simplicidade do problema apresentado não foram feitas modificações a malha padrão do ansys.
-![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Malha1.png)
-![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Malha2.png)
-
-# Condições de contorno utilizadas e como foram obtidas:
-De início planejava-se utilizar-se da vazão volumétrica dada pelo problema na entrada e na saída da tubulação, contudo o ansys não aceita vazão volumétrica como condição de contorno, somente vazão mássica, devido a esse problema a vazão volumétrica dada fora multiplicada pela densidade da água(obtida na biblioteca de propriedades materiais do ansys) com valor de 997 kg/m³, obtendo-se o valor de vazão mássica de 0.0997 kilogramas por segundo.
+# Possiveis condições de contorno para serem utilizadas:
+Utilizar-se da vazão volumétrica dada pelo problema na entrada e na saída da tubulação, contudo o ansys não aceita vazão volumétrica como condição de contorno, somente vazão mássica, devido a esse problema a vazão volumétrica dada fora multiplicada pela densidade da água(obtida na biblioteca de propriedades materiais do ansys) com valor de 997 kg/m³, obtendo-se o valor de vazão mássica de 0.0997 kilogramas por segundo.
+Outra opçao e utilizar  a pressao na entrada e saida como condiçao de contorno e comparar os resultados com os obtidos utilizando-se da vazao.
