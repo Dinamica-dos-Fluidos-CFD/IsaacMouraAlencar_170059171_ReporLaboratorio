@@ -25,3 +25,29 @@ Como relatado no problema a geometria consiste de um tubo circular de 1 metro de
 ## Malha
 ![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Malha2.png)
 Devido a simplicidade do problema e da geometria nao foram feitas alteraçoes a malha gerada automaticamente pelo programa, ja que a malha obtida de acordo com os parametro
+
+### Parametros de qualidade de malha
+Skewness:
+Qualidade da malha de acordo com os valores de skewness:
+*	Excelente: 0 - 0,25
+*	Muito Bom: 0,25 - 0,50
+*	Bom: 0,50 - 0,80
+*	Aceitável: 0,80 - 0,94
+*	Ruim: 0,95 - 0,97
+*	Inaceitável: 0,98 - 1
+
+Skewness obtido:
+![]https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Skewness.png
+Como pode se observar o skewness obtido foi de 0,2149, um valor excelente que e raro em malhas não refinadas como essa, que foi possível somente devido a simplicidade da geometria do problema.
+
+Orthogonal quality:
+*	Excelente: 0,95 - 1
+*	Muito Bom: 0,70 - 0,95
+*	Bom: 0,20 - 0,69
+*	Aceitável: 0,15 - 0,20
+*	Ruim: 0,001 - 0,14
+*	Inaceitável: 0 - 0,001
+
+Orthogonal quality obtido:
+![]https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Orthogonal_quality.png
+Assim como o skewness, o valor da qualidade ortogonal foi excelente sendo 0,96372.
