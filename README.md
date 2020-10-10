@@ -24,7 +24,7 @@ Outra opção e utilizar  a pressão na entrada e saída como condição de cont
 Como relatado no problema a geometria consiste de um tubo circular de 1 metro de comprimento e 40 milimetros de diametro.
 ## Malha
 ![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Malha2.png)
-Devido a simplicidade do problema e da geometria nao foram feitas alteraçoes a malha gerada automaticamente pelo programa, ja que a malha obtida de acordo com os parametro
+Devido a simplicidade do problema e da geometria nao foram feitas alteraçoes a malha gerada automaticamente pelo programa, ja que a malha obtida automaticamente pelo programa e de qualidade suficiente para o problema apresentado.
 
 ### Parametros de qualidade de malha
 Skewness:
@@ -38,7 +38,7 @@ Qualidade da malha de acordo com os valores de skewness:
 
 Skewness obtido:
 ![]https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Skewness.png
-Como pode se observar o skewness obtido foi de 0,2149, um valor excelente que e raro em malhas não refinadas como essa, que foi possível somente devido a simplicidade da geometria do problema.
+Como pode se observar o skewness máximo obtido foi de 0,47313, um valor muito bom, o qual é raro em malhas não refinadas como essa, que foi possível somente devido a simplicidade da geometria do problema.
 
 Orthogonal quality:
 *	Excelente: 0,95 - 1
@@ -50,4 +50,4 @@ Orthogonal quality:
 
 Orthogonal quality obtido:
 ![]https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Orthogonal_quality.png
-Assim como o skewness, o valor da qualidade ortogonal foi excelente sendo 0,96372.
+Assim como o skewness, o valor da qualidade ortogonal foi classificado como muito bom, já que seu valor mínimo e de 0,82069.
