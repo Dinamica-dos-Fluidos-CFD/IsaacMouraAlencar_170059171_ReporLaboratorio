@@ -37,7 +37,9 @@ Qualidade da malha de acordo com os valores de skewness:
 *	Inaceitável: 0,98 - 1
 
 Skewness obtido:
+
 ![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Skewness.png)
+
 Como pode se observar o skewness máximo obtido foi de 0,47313, um valor muito bom, o qual é raro em malhas não refinadas como essa, que foi possível somente devido a simplicidade da geometria do problema.
 
 Orthogonal quality:
@@ -49,5 +51,7 @@ Orthogonal quality:
 *	Inaceitável: 0 - 0,001
 
 Orthogonal quality obtido:
+
 ![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Orthogonal_quality.png)
+
 Assim como o skewness, o valor da qualidade ortogonal foi classificado como muito bom, já que seu valor mínimo e de 0,82069.
