@@ -13,5 +13,6 @@ Problema 1: Uma instalação de bombeamento tem apresentado problemas em uma se�
 ## Modelagem:
 A primeira etapa do projeto deve ser a modelagem da tubulação que possui 1 metro de comprimento e 40 milímetros de diâmetro, devido a simplicidade da geometria não é necessário nenhuma simplificação ou alteração nesta etapa do projeto, e provavelmente também não será necessário nenhum refino de malha pelo mesmo motivo, contudo não se pode garantir o mesmo das outras etapas.
 ### Geometria obtida
+
 [](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/geometria.png)
 
