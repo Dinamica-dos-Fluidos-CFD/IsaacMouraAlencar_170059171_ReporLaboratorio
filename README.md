@@ -7,8 +7,6 @@ Problema 1: Uma instalação de bombeamento tem apresentado problemas em uma se�
 - Apresentar possibilidades de problemas em caso dos valores colocados acima não estarem coerentes.
 - Usando a simulação apresentada, realizar um estudo paramétrico do do tamanho dos elementos de malha para avaliar se o cenário acima é normal ou não para esta instalação.
 
-
-## Requisitos:
 ### Qual é o objetivo do projeto?
 O objetivo do projeto é aferir o valor da perda de carga na tubulação apresentada a partir de um estudo paramétrico e comparar este resultado com o apresentado no enunciado do problema e caso haja discrepância dos resultados a partir do estudo paramétrico justificar tal discrepância
 
