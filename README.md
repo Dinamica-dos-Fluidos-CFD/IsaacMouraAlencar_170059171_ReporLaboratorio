@@ -9,7 +9,7 @@ Problema 1: Uma instalação de bombeamento tem apresentado problemas em uma se�
 
 
 ## Requisitos:
-É necessário nesse projeto aferir o valor da perda de carga na tubulação apresentada a partir de um estudo paramétrico e comparar este resultado com o apresentado no enunciado do problema e caso haja discrepância dos resultados a partir do estudo paramétrico justificar tal discrepância.
+O objetivo do projeto é aferir o valor da perda de carga na tubulação apresentada a partir de um estudo paramétrico e comparar este resultado com o apresentado no enunciado do problema e caso haja discrepância dos resultados a partir do estudo paramétrico justificar tal discrepância, para isso há duas metodologias possíveis, a reprodução do problema em laboratório(experimental), ou uma simulação computacional fluidodinâmica(CFD), já que supostamente a perda de carga e de 2 Pa a previsão do resultado deve ser algo próximo desta área(1 ou dois algarismos significativos)
 ## Modelagem:
 A primeira etapa do projeto deve ser a modelagem da tubulação que possui 1 metro de comprimento e 40 milímetros de diâmetro, devido a simplicidade da geometria não é necessário nenhuma simplificação ou alteração nesta etapa do projeto, e provavelmente também não será necessário nenhum refino de malha pelo mesmo motivo, contudo não se pode garantir o mesmo das outras etapas.
 ### Geometria obtida
