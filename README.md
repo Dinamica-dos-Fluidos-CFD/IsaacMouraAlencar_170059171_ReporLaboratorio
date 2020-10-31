@@ -30,7 +30,7 @@ Trocas de calor não serão consideradas
 Devido a simplicidade do problema onde há uma suposta perda de carga de 2 Pa, a precisão requerida deve ser de duas a três casas decimais, já que desse modo não será necessário muito poder computacional assim como caso a perda de carga seja próxima da relatada no problema variações menores que isso seriam de impacto pequeno.
 
 ## Qual é o prazo de entrega do projeto?
-Dia 5 de dezembro de 2020
+Dia 4 de dezembro de 2020
 
 ## Há outra metodologia mais adequada do que CFD?
 Outra possibilidade para se resolver o problema e a reprodução do mesmo em laboratório, contudo devido a situação da pandemia e a simplicidade CFD e a metodologia mais adequada.
