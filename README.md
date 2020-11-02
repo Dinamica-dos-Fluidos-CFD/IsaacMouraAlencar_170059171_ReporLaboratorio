@@ -6,7 +6,7 @@ Problema 1: Uma instalação de bombeamento tem apresentado problemas em uma se�
 - Determinar se estes valores de vazão e perda de carga estão coerentes ou não, e o motivo para isto.
 - Apresentar possibilidades de problemas em caso dos valores colocados acima não estarem coerentes.
 - Usando a simulação apresentada, realizar um estudo paramétrico do do tamanho dos elementos de malha para avaliar se o cenário acima é normal ou não para esta instalação.
-# 1- Pre processamento e modelagem:
+# 1- Pre processamento:
 ## Qual é o objetivo do projeto?
 O objetivo do projeto é aferir o valor da perda de carga na tubulação apresentada a partir de um estudo paramétrico e comparar este resultado com o apresentado no enunciado do problema e caso haja discrepância dos resultados a partir do estudo paramétrico justificar tal discrepância
 
@@ -33,11 +33,18 @@ Devido a simplicidade do problema onde há uma suposta perda de carga de 2 Pa, a
 Dia 4 de dezembro de 2020
 
 ## Há outra metodologia mais adequada do que CFD?
-Outra possibilidade para se resolver o problema e a reprodução do mesmo em laboratório, contudo devido a situação da pandemia e a simplicidade CFD e a metodologia mais adequada.
+Outra possibilidade para se resolver o problema e a reprodução do mesmo em laboratório reproduzindo o modelo descrito no problema, contudo devido a situação da pandemia e a simplicidade do problema, o CFD se torna uma opçao mais atraente, mas nao necessariamente a mais adequada.
 
 ## Requisitos da solução:
-O requisito de solução do Projeto de CFD é de confirmar ou não a queda de pressão mencionada no problema a partir de diferentes parâmetros, e caso não seja confirmada mostrar a real queda de pressão assim como justificar a mesma.
+O requisito de solução do Projeto de CFD é de confirmar ou não a queda de pressão mencionada no problema a partir de diferentes parâmetros, e caso não seja confirmada mostrar a real queda de pressão assim como justificar a mesma, logo a soluçao deve ter como resultado a queda de pressao ou valores a partir dos quais seja possivel aferir a mesma.
 
-## Modelagem:
-A primeira etapa do projeto deve ser a modelagem da tubulação que possui 1 metro de comprimento e 40 milímetros de diâmetro, devido a simplicidade da geometria não é necessário nenhuma simplificação ou alteração nesta etapa do projeto, e provavelmente também não será necessário nenhum refino de malha pelo mesmo motivo, contudo não se pode garantir o mesmo das outras etapas.
+# Modelagem:
+A primeira etapa do projeto deve ser a modelagem da tubulação que possui 1 metro de comprimento e 40 milímetros de diâmetro, devido a simplicidade da geometria não é necessário nenhuma simplificação ou alteração nesta etapa do projeto, e provavelmente também não será necessário nenhum refino de malha pelo mesmo motivo, contudo não se pode garantir o mesmo das outras etapas, a partir disso a malha e geometria obtidas foram as seguintes:
 
+## Geometria:
+
+![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/geometria.png)
+
+## Malha:
+
+![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Malha2.png)
