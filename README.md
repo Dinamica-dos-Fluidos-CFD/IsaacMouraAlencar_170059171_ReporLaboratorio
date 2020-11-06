@@ -99,3 +99,4 @@ Após isso adicionou-se a condição de “inlet” e de “outlet” nas superf
 
 ![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Outlet_2.png)
 
+O mesmo processo foi repetido para os outros dois conjuntos de condições de contorno.
