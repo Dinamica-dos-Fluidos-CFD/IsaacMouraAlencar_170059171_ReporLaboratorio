@@ -49,6 +49,10 @@ A primeira etapa do projeto deve ser a modelagem da tubulação que possui 1 met
 
 ![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Malha2.png)
 
+Selecionou-se a face esquerda do modelo para ser a entrada, e a direita para ser a saída, e nomeou-se as mesmas respectivamente de “inlet” e “outlet” para evitar confusões durante a simulação como a imagem a seguir mostra.
+
+![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Inlet_Outlet.png)
+
 ## Critérios de qualidade de malha:
 
 ### Skewness:
@@ -70,7 +74,7 @@ A partir dos dados do problema dois conjuntos de condições de contorno são po
 
 ### 3- Setup:
 
-Selecionou-se a face esquerda do modelo para ser a entrada, e a direita para ser a saída, e nomeou-se as mesmas respectivamente de “inlet” e “outlet” para evitar confusões durante a simulação como a imagem a seguir mostra.
+## Organização do workbench:
+Para facilitar a comparação dos resultados obtidos com os parâmetros diferentes foram criadas duas arvores de “Fluid flow” com a mesma geometria e malha.
 
-![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Inlet_Outlet.png)
-
+![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Arvore.png)
