@@ -68,3 +68,9 @@ O valor mínimo da qualidade ortogonal obtido foi de 0,82069, bem distante de um
 ## Condições de contorno:
 A partir dos dados do problema dois conjuntos de condições de contorno são possíveis, pressões na entrada e saída da tubulação, com uma diferença entre os dois de 2 Pa para depois aferir-se se a vazão indicada condiz com a dada no problema, O outro parâmetro possível seria a partir da vazão dada no problema(0,0001 metro cúbico), contudo o Ansys não trabalha com vazão volumétrica, para isso será necessário calcular a vazão mássica multiplicando este valor pela densidade da agua(997 kg/m^3 em condições normais de pressão e temperatura) obtendo um valor de 0,0997 kg/s, já que o regime é permanente e não há acumulo de massa na tubulação a vazão de saída é igual a de entrada, com isso será possível após rodar a simulação aferir a pressão na entrada e saída da tubulação e confirmar ou não a perda de carga se os resultados de ambos os parâmetros convergirem.
 
+### 3- Setup:
+
+Selecionou-se a face esquerda do modelo para ser a entrada, e a direita para ser a saída, e nomeou-se as mesmas respectivamente de “inlet” e “outlet” para evitar confusões durante a simulação como a imagem a seguir mostra.
+
+![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Inlet_Outlet.png)
+
