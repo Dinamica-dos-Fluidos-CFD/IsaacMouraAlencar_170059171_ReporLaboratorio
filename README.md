@@ -78,3 +78,14 @@ A partir dos dados do problema dois conjuntos de condições de contorno são po
 Para facilitar a comparação dos resultados obtidos com os parâmetros diferentes foram criadas duas arvores de “Fluid flow” com a mesma geometria e malha.
 
 ![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Arvore.png)
+
+## Cfx pre:
+Ao se abrir o CFX pré a primeira coisa a ser feita foi definir o material como agua, e a pressão de referencia como 1 atm.
+
+![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Basic%20setting.png)
+
+Na aba fluid models definiu-se que não há transferência de calor(já que e irrelevante ao problema) e que o escoamento e laminar(simplificação definida anteriormente).
+
+![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/FluidModel.png)
+
+
