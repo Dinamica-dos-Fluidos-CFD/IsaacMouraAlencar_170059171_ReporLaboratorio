@@ -70,16 +70,17 @@ O conceito de ortogonalidade da malha se relaciona a quão próximos os ângulos
 O valor mínimo da qualidade ortogonal obtido foi de 0,82069, bem distante de um valor ruim(0) e relativamente próximo de 1(excelente), logo considerando este critério de qualidade a malha obtida é de boa qualidade.
 
 ## Condições de contorno:
-A partir dos dados do problema dois conjuntos de condições de contorno são possíveis, pressões na entrada e saída da tubulação, com uma diferença entre os dois de 2 Pa para depois aferir-se se a vazão indicada condiz com a dada no problema, O outro parâmetro possível seria a partir da vazão dada no problema(0,0001 metro cúbico), contudo o Ansys não trabalha com vazão volumétrica, para isso será necessário calcular a vazão mássica multiplicando este valor pela densidade da agua(997 kg/m^3 em condições normais de pressão e temperatura) obtendo um valor de 0,0997 kg/s, já que o regime é permanente e não há acumulo de massa na tubulação a vazão de saída é igual a de entrada, com isso será possível após rodar a simulação aferir a pressão na entrada e saída da tubulação e confirmar ou não a perda de carga se os resultados de ambos os parâmetros convergirem.
+A partir dos dados do problema alguns conjuntos de condições de contorno são possíveis, pressões na entrada e saída da tubulação, com uma diferença entre os dois de 2 Pa para depois aferir-se se a vazão indicada condiz com a dada no problema, O outro parâmetro possível seria a partir da vazão dada no problema(0,0001 metro cúbico), contudo o Ansys não trabalha com vazão volumétrica, para isso será necessário calcular a vazão mássica multiplicando este valor pela densidade da agua(997 kg/m^3 em condições normais de pressão e temperatura) obtendo um valor de 0,0997 kg/s, já que o regime é permanente e não há acumulo de massa na tubulação a vazão de saída é igual a de entrada, com isso será possível após rodar a simulação aferir a pressão na entrada e saída da tubulação e confirmar ou não a perda de carga se os resultados de todos os parâmetros convergirem.
 
 ### 3- Setup:
 
 ## Organização do workbench:
-Para facilitar a comparação dos resultados obtidos com os parâmetros diferentes foram criadas duas arvores de “Fluid flow” com a mesma geometria e malha.
+Para facilitar a comparação dos resultados obtidos com os parâmetros diferentes foram criadas tres arvores de “Fluid flow” com a mesma geometria e malha, uma para entrada e saida com vazao massica, outra para entrada de pressao atmosferica e saida pressao atmosferica -2 pa, e a ultima para entrada como pressao atmosferica e saida como vazao massica.
 
-![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Arvore.png)
+![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Arvore_def.png)
 
 ## Cfx pre:
+Nesta etapa só será mostrado como foi feito o processo com um dos 3 conjuntos de condições de contorno pois a unica diferença e o que e alimentado ao programa, contudo posteriormente o resultado dos três conjuntos será revelado e discutido.
 Ao se abrir o CFX pré a primeira coisa a ser feita foi definir o material como agua, e a pressão de referencia como 1 atm.
 
 ![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Basic%20setting.png)
@@ -88,4 +89,13 @@ Na aba fluid models definiu-se que não há transferência de calor(já que e ir
 
 ![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/FluidModel.png)
 
+Após isso adicionou-se a condição de “inlet” e de “outlet” nas superfícies previamente nomeadas:
+
+![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Inlet_1.png)
+
+![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Inlet_2.png)
+
+![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Outlet_1.png)
+
+![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Outlet_2.png)
 
