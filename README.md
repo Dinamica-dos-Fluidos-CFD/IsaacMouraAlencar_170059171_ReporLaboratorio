@@ -48,3 +48,20 @@ A primeira etapa do projeto deve ser a modelagem da tubulação que possui 1 met
 ## Malha:
 
 ![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Malha2.png)
+
+## Critérios de qualidade de malha:
+
+### Skewness:
+O “Skewness” de uma grade é um indicador adequado da qualidade e adequação da malha. Grandes valores de “Skewness” comprometem a precisão das regiões interpoladas. Qualidade da malha baseada em valores de “Skewness”. O skewness obtido é o seguinte:
+
+![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Skewness.png)
+
+O skewness máximo obtido foi de 0,47313, um valor distante de 1(skewness ruim) porém não tão próximo de 0(skewness excelente), mas devido a simplicidade do problema este valor e adequado para a solução do problema.
+
+### Orthogonal quality:
+O conceito de ortogonalidade da malha se relaciona a quão próximos os ângulos entre as faces dos elementos adjacentes (ou arestas dos elementos adjacentes) estão de algum ângulo ideal (dependendo da topologia relevante). A medida de ortogonalidade varia de 0 (ruim) a 1 (bom). A qualidade ortogonal obtida é a seguinte:
+
+![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Orthogonal_quality.png)
+
+O valor mínimo da qualidade ortogonal obtido foi de 0,82069, bem distante de um valor ruim(0) e relativamente próximo de 1(excelente), logo considerando este critério de qualidade a malha obtida é de boa qualidade.
+
