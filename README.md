@@ -38,7 +38,7 @@ Outra possibilidade para se resolver o problema e a reprodução do mesmo em lab
 ## Requisitos da solução:
 O requisito de solução do Projeto de CFD é de confirmar ou não a queda de pressão mencionada no problema a partir de diferentes parâmetros, e caso não seja confirmada mostrar a real queda de pressão assim como justificar a mesma, logo a soluçao deve ter como resultado a queda de pressao ou valores a partir dos quais seja possivel aferir a mesma.
 
-# Modelagem:
+# 2-Modelagem:
 A primeira etapa do projeto deve ser a modelagem da tubulação que possui 1 metro de comprimento e 40 milímetros de diâmetro, devido a simplicidade da geometria não é necessário nenhuma simplificação ou alteração nesta etapa do projeto, e provavelmente também não será necessário nenhum refino de malha pelo mesmo motivo, contudo não se pode garantir o mesmo das outras etapas, a partir disso a malha e geometria obtidas foram as seguintes:
 
 ## Geometria:
@@ -64,4 +64,7 @@ O conceito de ortogonalidade da malha se relaciona a quão próximos os ângulos
 ![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Orthogonal_quality.png)
 
 O valor mínimo da qualidade ortogonal obtido foi de 0,82069, bem distante de um valor ruim(0) e relativamente próximo de 1(excelente), logo considerando este critério de qualidade a malha obtida é de boa qualidade.
+
+## Condições de contorno:
+A partir dos dados do problema dois conjuntos de condições de contorno são possíveis, pressões na entrada e saída da tubulação, com uma diferença entre os dois de 2 Pa para depois aferir-se se a vazão indicada condiz com a dada no problema, O outro parâmetro possível seria a partir da vazão dada no problema(0,0001 metro cúbico), contudo o Ansys não trabalha com vazão volumétrica, para isso será necessário calcular a vazão mássica multiplicando este valor pela densidade da agua(997 kg/m^3 em condições normais de pressão e temperatura) obtendo um valor de 0,0997 kg/s, já que o regime é permanente e não há acumulo de massa na tubulação a vazão de saída é igual a de entrada, com isso será possível após rodar a simulação aferir a pressão na entrada e saída da tubulação e confirmar ou não a perda de carga se os resultados de ambos os parâmetros convergirem.
 
