@@ -36,4 +36,9 @@ Dia 4 de dezembro de 2020
 Outra possibilidade para se resolver o problema e a reprodução do mesmo em laboratório reproduzindo o modelo descrito no problema, contudo devido a situação da pandemia e a simplicidade do problema, o CFD se torna uma opçao mais atraente, mas nao necessariamente a mais adequada.
 
 ## Requisitos da solução:
-O requisito de solução do Projeto de CFD é de resultados a partir dos quais pela analise dos mesmos seja possivel aferir se os valores de vazão e perda de carga relatados estão coerentes ou não para esta instalaçao e o motivo para isto.
+O requisito de solução do Projeto de CFD é de se aferir a vazao e pessoes da instalaçao mencionada ou quaisquer dados que possibilitem a obtençao desses valores.
+
+## Geometria:
+
+![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/geometria.png)
+
