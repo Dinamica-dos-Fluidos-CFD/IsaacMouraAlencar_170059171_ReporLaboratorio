@@ -6,7 +6,7 @@ Problema 1: Uma instalação de bombeamento tem apresentado problemas em uma se�
 - Determinar se estes valores de vazão e perda de carga estão coerentes ou não, e o motivo para isto.
 - Apresentar possibilidades de problemas em caso dos valores colocados acima não estarem coerentes.
 - Usando a simulação apresentada, realizar um estudo paramétrico do do tamanho dos elementos de malha para avaliar se o cenário acima é normal ou não para esta instalação.
-# 1- Pre processamento:
+# 1- Modelagem:
 ## Qual é o objetivo do projeto?
 O objetivo do projeto é aferir o valor da perda de carga na tubulação apresentada a partir de um estudo paramétrico e comparar este resultado com o apresentado no enunciado do problema e caso haja discrepância dos resultados a partir do estudo paramétrico justificar tal discrepância
 
@@ -36,67 +36,4 @@ Dia 4 de dezembro de 2020
 Outra possibilidade para se resolver o problema e a reprodução do mesmo em laboratório reproduzindo o modelo descrito no problema, contudo devido a situação da pandemia e a simplicidade do problema, o CFD se torna uma opçao mais atraente, mas nao necessariamente a mais adequada.
 
 ## Requisitos da solução:
-O requisito de solução do Projeto de CFD é de confirmar ou não a queda de pressão mencionada no problema a partir de diferentes parâmetros, e caso não seja confirmada mostrar a real queda de pressão assim como justificar a mesma, logo a soluçao deve ter como resultado a queda de pressao ou valores a partir dos quais seja possivel aferir a mesma.
-
-# 2-Modelagem:
-A primeira etapa do projeto deve ser a modelagem da tubulação que possui 1 metro de comprimento e 40 milímetros de diâmetro, devido a simplicidade da geometria não é necessário nenhuma simplificação ou alteração nesta etapa do projeto, e provavelmente também não será necessário nenhum refino de malha pelo mesmo motivo, contudo não se pode garantir o mesmo das outras etapas, a partir disso a malha e geometria obtidas foram as seguintes:
-
-## Geometria:
-
-![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/geometria.png)
-
-## Malha:
-
-![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Malha2.png)
-
-Selecionou-se a face esquerda do modelo para ser a entrada, e a direita para ser a saída, e nomeou-se as mesmas respectivamente de “inlet” e “outlet” para evitar confusões durante a simulação como a imagem a seguir mostra.
-
-![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Inlet_Outlet.png)
-
-## Critérios de qualidade de malha:
-
-### Skewness:
-O “Skewness” de uma grade é um indicador adequado da qualidade e adequação da malha. Grandes valores de “Skewness” comprometem a precisão das regiões interpoladas. Qualidade da malha baseada em valores de “Skewness”. O skewness obtido é o seguinte:
-
-![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Skewness.png)
-
-O skewness máximo obtido foi de 0,47313, um valor distante de 1(skewness ruim) porém não tão próximo de 0(skewness excelente), mas devido a simplicidade do problema este valor e adequado para a solução do problema.
-
-### Orthogonal quality:
-O conceito de ortogonalidade da malha se relaciona a quão próximos os ângulos entre as faces dos elementos adjacentes (ou arestas dos elementos adjacentes) estão de algum ângulo ideal (dependendo da topologia relevante). A medida de ortogonalidade varia de 0 (ruim) a 1 (bom). A qualidade ortogonal obtida é a seguinte:
-
-![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Orthogonal_quality.png)
-
-O valor mínimo da qualidade ortogonal obtido foi de 0,82069, bem distante de um valor ruim(0) e relativamente próximo de 1(excelente), logo considerando este critério de qualidade a malha obtida é de boa qualidade.
-
-## Condições de contorno:
-A partir dos dados do problema alguns conjuntos de condições de contorno são possíveis, pressões na entrada e saída da tubulação, com uma diferença entre os dois de 2 Pa para depois aferir-se se a vazão indicada condiz com a dada no problema, O outro parâmetro possível seria a partir da vazão dada no problema(0,0001 metro cúbico), contudo o Ansys não trabalha com vazão volumétrica, para isso será necessário calcular a vazão mássica multiplicando este valor pela densidade da agua(997 kg/m^3 em condições normais de pressão e temperatura) obtendo um valor de 0,0997 kg/s, já que o regime é permanente e não há acumulo de massa na tubulação a vazão de saída é igual a de entrada, com isso será possível após rodar a simulação aferir a pressão na entrada e saída da tubulação e confirmar ou não a perda de carga se os resultados de todos os parâmetros convergirem.
-
-### 3- Setup:
-
-## Organização do workbench:
-Para facilitar a comparação dos resultados obtidos com os parâmetros diferentes foram criadas tres arvores de “Fluid flow” com a mesma geometria e malha, uma para entrada e saida com vazao massica, outra para entrada de pressao atmosferica e saida pressao atmosferica -2 pa, e a ultima para entrada como pressao atmosferica e saida como vazao massica.
-
-![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Arvore_def.png)
-
-## Cfx pre:
-Nesta etapa só será mostrado como foi feito o processo com um dos 3 conjuntos de condições de contorno pois a unica diferença e o que e alimentado ao programa, contudo posteriormente o resultado dos três conjuntos será revelado e discutido.
-Ao se abrir o CFX pré a primeira coisa a ser feita foi definir o material como agua, e a pressão de referencia como 1 atm.
-
-![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Basic%20setting.png)
-
-Na aba fluid models definiu-se que não há transferência de calor(já que e irrelevante ao problema) e que o escoamento e laminar(simplificação definida anteriormente).
-
-![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/FluidModel.png)
-
-Após isso adicionou-se a condição de “inlet” e de “outlet” nas superfícies previamente nomeadas:
-
-![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Inlet_1.png)
-
-![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Inlet_2.png)
-
-![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Outlet_1.png)
-
-![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Outlet_2.png)
-
-O mesmo processo foi repetido para os outros dois conjuntos de condições de contorno.
+O requisito de solução do Projeto de CFD é de resultados a partir dos quais pela analise dos mesmos seja possivel aferir se os valores de vazão e perda de carga relatados estão coerentes ou não para esta instalaçao e o motivo para isto.
