@@ -8,7 +8,7 @@ Problema 1: Uma instalação de bombeamento tem apresentado problemas em uma se�
 - Usando a simulação apresentada, realizar um estudo paramétrico do tamanho dos elementos de malha para avaliar se o cenário acima é normal ou não para esta instalação.
 # 1- Modelagem:
 ## Qual é o objetivo do projeto?
-O objetivo do projeto é aferir o valor da perda de carga na tubulação apresentada a partir de um estudo paramétrico e comparar este resultado com o apresentado no enunciado do problema e caso haja discrepância dos resultados a partir do estudo paramétrico justificar tal discrepância
+O objetivo do projeto é aferir o valor da perda de carga na tubulação apresentada a partir de um estudo paramétrico e comparar este resultado com o apresentado no enunciado do problema. Em caso de discrepância dos resultados justificar tal discrepância a partir do estudo paramétrico e da literatura disponível.
 
 ## Qual é a finalidade do projeto?
 O projeto tem fim acadêmico de modo que demonstre a visualização do escoamento citado e dos parâmetros através da simulação computacional e de cálculos feitos utilizando a teoria de Dinâmica dos Fluidos para se caracterizar o escoamento e confirmar os resultados obtidos de cada forma.
