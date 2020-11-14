@@ -36,7 +36,7 @@ Dia 4 de dezembro de 2020
 Outra possibilidade para se resolver o problema e a reprodução do mesmo em laboratório reproduzindo o modelo descrito no problema, contudo devido a situação da pandemia e a simplicidade do problema, o CFD se torna uma opçao mais atraente, mas nao necessariamente a mais adequada.
 
 ## Requisitos da solução:
-O requisito de solução do Projeto de CFD é de se aferir a vazao e pessoes da instalaçao mencionada ou quaisquer dados que possibilitem a obtençao desses valores.
+O requisito de solução do Projeto de CFD é de se aferir a vazao e pessoes da instalaçao mencionada, o parametro a ser definido para o estudo parametrico e quaisquer outros dados que possibilitem a obtençao ou validaçao desses valores.
 
 ## Geometria:
 
