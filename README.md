@@ -42,6 +42,6 @@ O requisito de solução do Projeto de CFD é a vazão e pressão no interior da
 ![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/geometria.png)
 
 
-#Desenho esquemático da modelagem do problema:
+## Desenho esquemático da modelagem do problema:
 
 ![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Esquema.png)
