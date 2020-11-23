@@ -50,7 +50,7 @@ O requisito de solução do Projeto de CFD é a vazão e pressão no interior da
 
 ## 	Quanto detalhado o domínio de cálculo precisa ser?
 
-Devido a simplicidade do problema não é necessário um detalhamento muito elevado. Contudo pelo mesmo motivo relatado acima, será possível um detalhamento maior caso o mesmo seja necessário em virtude de algum problema com os resultados ou com o estudo paramétrico.
+Devido a simplicidade do problema não é necessário um detalhamento muito elevado. Contudo pelo mesmo motivo relatado acima aumentos na precisão ou detalhamento da simulação não resultaram em tão significativo aumento no tempo de processamento.
 
 ## 	A geometria está adequada?
 
@@ -67,7 +67,7 @@ Vazão mássica (calculada a partir da vazão volumétrica).
 Velocidade média do escoamento (calculada a partir da área e da vazão volumétrica).
 
 ## 	Que escolhas devem ser feitas em relação ao processamento da solução?
-Quais as condições de contorno a serem utilizadas.
+Quais as condições de contorno a serem utilizadas (Input), o tipo de escoamento (laminar ou turbulento), se será ou não utilizado um modelo de transferência de calor e possíveis alterações na malha ou na geometria.
 
 ## 	Quais são os prazos e disponibilidade de capacidade computacional para a análise em questão?
 
@@ -87,4 +87,3 @@ Sistema operacional: Windows 10 home.
 ![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Skewness.png)
 
 ![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Orthogonal_quality.png)
-
