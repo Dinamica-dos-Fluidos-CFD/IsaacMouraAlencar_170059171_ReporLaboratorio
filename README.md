@@ -98,6 +98,7 @@ Após isso foi definido que o fluido(água), a pressão de referência(atmosfér
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Basic%20setting.png)
 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/FluidModel.png)
+
 Para finalizar esta etapa em cada uma das arvores foram definidas as condições de contorno na entrada e na saída do cano com diferentes parâmetros assim possibilitando posteriormente uma validação dos resultados se houver convergência.
 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Inlet_1.png)
