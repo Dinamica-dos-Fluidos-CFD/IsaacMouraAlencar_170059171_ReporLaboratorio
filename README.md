@@ -92,26 +92,24 @@ Sistema operacional: Windows 10 home.
 ## Descrição do pré-processamento feito no ANSYS:
 Para facilitar a organização do processo de “setup” ainda na ferramenta de geração de malha selecionou-se as faces da entrada e saída da geometria e nomeou-as respectivamente “inlet” e “outlet”.
 
-![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Inlet_Outlet.png)
+![Adição de faces de “inlet” e “outlet”]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Inlet_Outlet.png)
 
 Para facilitar a comparação de resultados com parâmetros diferentes criou-se mais duas “arvores” no workbench utilizando a mesma malha e geometria:
 
-![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Arvore_def.png)
+![Arvore do workbench]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Arvore_def.png)
 
 Após isso foi definido que o fluido(água), a pressão de referência(atmosférica), o modelo de transferência de calor(nenhum) e o tipo de escoamento(laminar) na etapa de setup de cada uma das arvores.
 
-![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Basic%20setting.png)
+![Propriedades do fluido]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Basic%20setting.png)
 
-![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/FluidModel.png)
-
+![Configurações de transferência de calor e turbulência]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/FluidModel.png)
 Para finalizar esta etapa em cada uma das arvores foram definidas as condições de contorno na entrada e na saída do cano em cada uma das arvores com os valores discutidos anteriormente (velocidade, pressão e vazão mássica) para assim posteriormente comparar os resultados e ver se convergem ou não.
 
-![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Inlet_1.png)
+![Seleção da face “inlet”]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Inlet_1.png)
 
-![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Inlet_2.png)
+![Entrada por fluxo de massa]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Inlet_2.png)
 
-![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Outlet_1.png)
+![Seleção da face “outlet”]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Outlet_1.png)
 
-![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Outlet_2.png)
-
+![Saída por fluxo de massa]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Outlet_2.png)
 
