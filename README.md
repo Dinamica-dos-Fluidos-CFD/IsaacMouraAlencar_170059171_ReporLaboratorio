@@ -88,7 +88,12 @@ Sistema operacional: Windows 10 home.
 
 ![](https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Orthogonal_quality.png)
 
-## Descrição do pré-processamento feito no ANSYS.
+
+## Descrição do pré-processamento feito no ANSYS:
+Para facilitar a organização do processo de “setup” ainda na ferramenta de geração de malha selecionou-se as faces da entrada e saída da geometria e nomeou-as respectivamente “inlet” e “outlet”.
+
+![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Inlet_Outlet.png)
+
 Para facilitar a comparação de resultados com parâmetros diferentes criou-se mais duas “arvores” no workbench utilizando a mesma malha e geometria:
 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Arvore_def.png)
@@ -98,8 +103,7 @@ Após isso foi definido que o fluido(água), a pressão de referência(atmosfér
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Basic%20setting.png)
 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/FluidModel.png)
-
-Para finalizar esta etapa em cada uma das arvores foram definidas as condições de contorno na entrada e na saída do cano com diferentes parâmetros assim possibilitando posteriormente uma validação dos resultados se houver convergência.
+Para finalizar esta etapa em cada uma das arvores foram definidas as condições de contorno na entrada e na saída do cano em cada uma das arvores com os valores discutidos anteriormente (velocidade, pressão e vazão mássica) para assim posteriormente comparar os resultados e ver se convergem ou não.
 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Inlet_1.png)
 
@@ -108,3 +112,5 @@ Para finalizar esta etapa em cada uma das arvores foram definidas as condições
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Outlet_1.png)
 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Outlet_2.png)
+
+
