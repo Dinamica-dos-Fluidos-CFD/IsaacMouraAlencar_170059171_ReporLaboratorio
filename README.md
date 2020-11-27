@@ -118,4 +118,16 @@ Definição das condições de saída com fluxo de massa:
 
 ![Saída por fluxo de massa]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/Outlet_2.png)
 
+# 3- Processamento e Pós-Processamento:
 
+## O histórico de convergência do cálculo está adequado?
+
+## Quanto tempo a simulação está levando para ser processada?
+
+## Os resíduos estão em valores aceitáveis?
+
+## A simulação fornece resultados qualitativos?
+
+## É possível calcular resultados quantitativos e qualitativos com o que a simulação calculou?
+
+## Os resultados estão de acordo com a realidade física do escoamento?
