@@ -122,8 +122,25 @@ Definição das condições de saída com fluxo de massa:
 
 ## O histórico de convergência do cálculo está adequado?
 
-## Quanto tempo a simulação está levando para ser processada?
+Como pode ser observado nas figuras abaixo todas as curvas do gráfico de convergência estão apontadas para baixo, logo o histórico de convergência está adequado.
 
+“Input” e “output” como pressão:
+
+![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/ConvergenciaPressao.png)
+
+“Input” e “output” como vazão mássica: 
+
+![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/ConvergenciaVelocidade.png)
+
+“Input” como pressão e “output” como vazão mássica:
+
+![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/ConvergenciaVelPressao.png)
+
+## Quanto tempo a simulação está levando para ser processada?
+Seguem os tempos de simulação para cada uma das 3 simulaçoes:
+“Input” e “output” como pressão: 24,94 segundos.
+“Input” e “output” como vazão mássica: 36,588 segundos.
+“Input” como pressão e “output” como vazão mássica: 1 minuto 24,677 segundos.
 ## Os resíduos estão em valores aceitáveis?
 
 ## A simulação fornece resultados qualitativos?
