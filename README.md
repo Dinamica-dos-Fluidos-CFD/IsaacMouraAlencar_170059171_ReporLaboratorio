@@ -143,6 +143,35 @@ Seguem os tempos de simulação para cada uma das 3 simulaçoes:
 “Input” como pressão e “output” como vazão mássica: 1 minuto 24,677 segundos.
 ## Os resíduos estão em valores aceitáveis?
 
+Sim, devido a baixa complexidade da geometria e a boa qualidade da malha o numero de erros computacionais foi mínimo.
+
+## Resultados obtidos:
+
+Seguem os resultados de cada uma das três simulações realizadas.
+
+### Simulação 1 (“Input” e “output” como vazão mássica):
+
+Vetor velocidade ao longo do escoamento:
+
+![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/VetorVelocidade1.png)
+
+![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/ZoomVetorVelocidade1.png)
+
+Distribuição de velocidade:
+
+![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/DistribVelocidade1.png)
+
+Pressão ao longo do escoamento:
+
+![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/ContornoPressao1.png)
+
+Gráfico da perda de carga:
+
+![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/PerdaDeCarga1.png)
+
+Gráfico de velocidade: 
+![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/PerfilVelocidade1.png)
+
 ## A simulação fornece resultados qualitativos?
 
 ## É possível calcular resultados quantitativos e qualitativos com o que a simulação calculou?
