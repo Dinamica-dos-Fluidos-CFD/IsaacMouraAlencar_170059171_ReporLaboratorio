@@ -137,13 +137,13 @@ Como pode ser observado nas figuras abaixo todas as curvas do gráfico de conver
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/ConvergenciaVelPressao.png)
 
 ## Quanto tempo a simulação está levando para ser processada?
-Seguem os tempos de simulação para cada uma das 3 simulaçoes:
+Seguem os tempos de simulação para cada uma das 3 simulações:
 “Input” e “output” como pressão: 24,94 segundos.
 “Input” e “output” como vazão mássica: 36,588 segundos.
 “Input” como pressão e “output” como vazão mássica: 1 minuto 24,677 segundos.
 ## Os resíduos estão em valores aceitáveis?
 
-Sim, devido a baixa complexidade da geometria e a boa qualidade da malha o numero de erros computacionais foi mínimo.
+Devido a qualidade da malha obtida e a simplicidade da malha os resíduos não apresentaram problemas para esta simulação.
 
 ## Resultados obtidos:
 
@@ -171,6 +171,52 @@ Gráfico da perda de carga:
 
 Gráfico de velocidade: 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/PerfilVelocidade1.png)
+
+### Simulação 2 (“Input” e “output” como pressão):
+
+Vetor velocidade ao longo do escoamento:
+
+![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/VetorVelocidade2.png)
+
+![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/ZoomVetorVelocidade2.png)
+
+Distribuição de velocidade:
+
+![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/DistribVelocidade2.png)
+
+Pressão ao longo do escoamento:
+
+![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/ContornoPressao2.png)
+
+Gráfico da perda de carga:
+
+![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/PerdaDeCarga2.png)
+
+Gráfico de velocidade: 
+![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/PerfilVelocidade2.png)
+
+### Simulação 3 (“Input” como pressão e “output” como vazão mássica):
+
+Vetor velocidade ao longo do escoamento:
+
+![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/VetorVelocidade3.png)
+
+![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/ZoomVetorVelocidade3.png)
+
+Distribuição de velocidade:
+
+![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/DistribVelocidade3.png)
+
+Pressão ao longo do escoamento:
+
+![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/ContornoPressao3.png)
+
+Gráfico da perda de carga:
+
+![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/PerdaDeCarga3.png)
+
+Gráfico de velocidade: 
+![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/PerfilVelocidade3.png)
 
 ## A simulação fornece resultados qualitativos?
 
