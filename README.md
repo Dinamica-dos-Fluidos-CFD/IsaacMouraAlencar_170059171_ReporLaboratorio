@@ -220,6 +220,12 @@ Gráfico de velocidade:
 
 ## A simulação fornece resultados qualitativos?
 
+Como as figuras acima mostram há diversos resultados qualitativos obtidos a partir das simulações contudo os mesmos são divergentes.
+
 ## É possível calcular resultados quantitativos e qualitativos com o que a simulação calculou?
 
+Sim, a simulação teve como resultado diversos valores como velocidade e pressão a partir dos quais e possível obter valores para propriedades do escoamento como número de Reynolds e número de Mach.
+
 ## Os resultados estão de acordo com a realidade física do escoamento?
+
+Houve uma grande discrepância nas simulações quanto a perda de carga, desenvolvimento do escoamento e velocidade, o que indica algum erro na mesma, logo não é possível afirmar que os resultados estão de acordo com a realidade física do escoamento.
