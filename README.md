@@ -228,4 +228,4 @@ Sim, a simulação teve como resultado diversos valores como velocidade e press�
 
 ## Os resultados estão de acordo com a realidade física do escoamento?
 
-Houve uma grande discrepância nas simulações quanto a perda de carga, desenvolvimento do escoamento e velocidade, o que indica algum erro na mesma, logo não é possível afirmar que os resultados estão de acordo com a realidade física do escoamento.
+Alguns resultados como o do vetor de velocidade são muito similares ao esperado para esse escoamento, assim como o desenvolvimento do escoamento nas duas primeiras simulações. Contudo houve uma grande discrepância nas simulações quanto a perda de carga, desenvolvimento do escoamento e velocidade, o que indica algum erro na mesma, logo não é possível afirmar que os resultados estão de acordo com a realidade física do escoamento.
