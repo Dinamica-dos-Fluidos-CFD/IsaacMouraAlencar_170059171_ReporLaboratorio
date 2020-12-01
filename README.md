@@ -157,20 +157,30 @@ Vetor velocidade ao longo do escoamento:
 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/ZoomVetorVelocidade1.png)
 
+Nota-se que os vetores na saída do tubo formam quase uma parábola, o que e o esperado de um escoamento plenamente desenvolvido.
+
 Distribuição de velocidade:
 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/DistribVelocidade1.png)
+
+Nota-se que o escoamento começa a se tornar plenamente desenvolvido após a marca de 0,5 metros no tubo.
 
 Pressão ao longo do escoamento:
 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/ContornoPressao1.png)
 
+Nota-se que diferentemente do esperado a perda de carga foi de 3.459 Pa, o que a princípio seria, contudo, a escala do domínio desta representação e global, logo essas pressões podem não necessariamente representar a pressão na entrada e na saída da tubulação.
+
 Gráfico da perda de carga:
 
-![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/PerdaDeCarga1.png)
+![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/PerdaDeCarga1Real.png)
+
+Diferentemente da representação anterior, aqui foi obtido um resultado que possivelmente valida a hipótese sugerida no início do problema, com uma perda de carga de aproximadamente 1,5 (muito mais próximo de 2Pa que 3.459). Tal discrepância pode ser explicada pelo gráfico possuir resultados mais locais enquanto o contorno utiliza de resultados mais globais. Por consequência o gráfico possui o resultado mais preciso e esse será o utilizado na análise.
 
 Gráfico de velocidade: 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/PerfilVelocidade1.png)
+
+Este gráfico mostra novamente a característica parabólica da distribuição de velocidade, o qual e esperado de um escoamento real plenamente desenvolvido.
 
 ### Simulação 2 (“Input” e “output” como pressão):
 
@@ -178,11 +188,15 @@ Vetor velocidade ao longo do escoamento:
 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/VetorVelocidade2.png)
 
+Nota-se novamente que os vetores na saída do tubo formam quase uma parábola, o que e o esperado de um escoamento plenamente desenvolvido.
+
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/ZoomVetorVelocidade2.png)
 
 Distribuição de velocidade:
 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/DistribVelocidade2.png)
+
+Aqui diferentemente da primeira simulação o escoamento se torna plenamente desenvolvido antes da marca de 0,5 metros, tal discrepância e explicada pela diferença em condições de contorno.
 
 Pressão ao longo do escoamento:
 
@@ -192,8 +206,12 @@ Gráfico da perda de carga:
 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/PerdaDeCarga2.png)
 
+Como esperado, tanto no contorno quanto no gráfico de pressão a perda de carga é de 2 Pa, visto que essas foram as condições de contorno utilizadas tornando qualquer resultado diferente deste impossível.
+
 Gráfico de velocidade: 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/PerfilVelocidade2.png)
+
+Aqui nota-se novamente uma parábola na distribuição de velocidade.
 
 ### Simulação 3 (“Input” como pressão e “output” como vazão mássica):
 
@@ -203,31 +221,41 @@ Vetor velocidade ao longo do escoamento:
 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/ZoomVetorVelocidade3.png)
 
+De todos os resultados de velocidade obtidos esse é o mais próximo de uma parábola, indicando que essa simulação é a que mais se aproxima da realidade do escoamento.
+
 Distribuição de velocidade:
 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/DistribVelocidade3.png)
+
+Nota-se que pela distribuição de velocidade o escoamento aparenta ser plenamente desenvolvido desde o começo, fato que não é observado em um escoamento real. Tal distribuição de velocidade provavelmente foi resultado das condições de contorno utilizadas.
 
 Pressão ao longo do escoamento:
 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/ContornoPressao3.png)
 
+Assim como na primeira simulação este contorno demonstra uma perda de carga grande, contudo pela análise da distribuição de velocidade sabemos que esta simulação não representa corretamente um escoamento real.
+
 Gráfico da perda de carga:
 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/PerdaDeCarga3.png)
 
+Assim como na primeira simulação, o contorno mostrou uma perda de carga grande enquanto o gráfico mostra algo mais próximo de 2Pa.
+
 Gráfico de velocidade: 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/PerfilVelocidade3.png)
 
+Aqui vemos outro gráfico de velocidade parabólico, dentre os 3 gráficos obtidos este e o que mais se aproxima de uma parábola.
+
 ## A simulação fornece resultados qualitativos?
 
-Como as figuras acima mostram há diversos resultados qualitativos obtidos a partir das simulações contudo os mesmos são divergentes.
+Sim, a partir das imagens acima e possível descobrir aproximadamente onde o escoamento se torna plenamente desenvolvido, assim como a distribuição de velocidade. 
 
 ## É possível calcular resultados quantitativos e qualitativos com o que a simulação calculou?
 
-Sim, a simulação teve como resultado diversos valores como velocidade e pressão a partir dos quais e possível obter valores para propriedades do escoamento como número de Reynolds e número de Mach.
+Sim, a simulação teve como resultado diversos valores como velocidade e pressão a partir dos quais e possível obter valores para propriedades do escoamento como velocidade média, número de Reynolds e número de Mach.
 
 ## Os resultados estão de acordo com a realidade física do escoamento?
 
+Dentre todas as simulações a primeira foi a que obteve resultados mais próximos da realidade devido as condições de contorno utilizadas, tal afirmação e reforçada pela distribuição parabólica de velocidade e pela “demora” para se alcançar um escoamento plenamente desenvolvido. A segunda também obteve resultados bons, contudo devido a pressão ter sido definida através das condições de contorno ela provavelmente representa um escoamento com vazão mássica diferente da descrita no problema. Já a terceira simulação devido a mistura das condições de contorno da primeira e da segunda, não condiz com a realidade possuindo um escoamento plenamente desenvolvido desde o seu início.
 
-Alguns resultados como o do vetor de velocidade são muito similares ao esperado para esse escoamento, assim como o desenvolvimento do escoamento nas duas primeiras simulações. Contudo houve uma grande discrepância nas simulações quanto a perda de carga, desenvolvimento do escoamento e velocidade, o que indica algum erro na mesma, logo não é possível afirmar que os resultados estão de acordo com a realidade física do escoamento. Tal problema provavelmente e resultado das simplificações feitas para facilitar a simulação.
 
