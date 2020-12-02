@@ -157,13 +157,13 @@ Vetor velocidade ao longo do escoamento:
 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/ZoomVetorVelocidade1.png)
 
-Nota-se que os vetores na saída do tubo formam quase uma parábola, o que e o esperado de um escoamento plenamente desenvolvido.
+Nota-se que os vetores na saída do tubo formam quase uma parábola, o que é o esperado de um escoamento plenamente desenvolvido pois as partículas mais próximas da parede são desaceleradas pela parede.
 
 Distribuição de velocidade:
 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/DistribVelocidade1.png)
 
-Nota-se que o escoamento começa a se tornar plenamente desenvolvido após a marca de 0,5 metros no tubo.
+Nota-se que até a marca de 0,5m a distribuição de velocidade e relativamente uniforme, e que após essa marca nota-se que o fluido no centro acelera enquanto o fluido próximo das paredes fica mais lento, caracterizando um escoamento plenamente desenvolvido.
 
 Pressão ao longo do escoamento:
 
@@ -180,7 +180,7 @@ Diferentemente da representação anterior, aqui foi obtido um resultado que pos
 Gráfico de velocidade: 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/PerfilVelocidade1.png)
 
-Este gráfico mostra novamente a característica parabólica da distribuição de velocidade, o qual e esperado de um escoamento real plenamente desenvolvido.
+Este gráfico mostra o que foi relatado e demonstrado nas figuras acima de maneira diferente, velocidades mais baixas conforme se aproxima das paredes e mais rápidas no centro formando uma parábola, .
 
 ### Simulação 2 (“Input” e “output” como pressão):
 
@@ -211,7 +211,7 @@ Como esperado, tanto no contorno quanto no gráfico de pressão a perda de carga
 Gráfico de velocidade: 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/PerfilVelocidade2.png)
 
-Aqui nota-se novamente uma parábola na distribuição de velocidade.
+Aqui a parábola é mais notável, pois o gráfico foi feito na marca de 0,5 metros e esse escoamento se tornou plenamente desenvolvido antes dela, logo a parábola e mais claramente visível neste.
 
 ### Simulação 3 (“Input” como pressão e “output” como vazão mássica):
 
@@ -221,7 +221,7 @@ Vetor velocidade ao longo do escoamento:
 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/ZoomVetorVelocidade3.png)
 
-De todos os resultados de velocidade obtidos esse é o mais próximo de uma parábola, indicando que essa simulação é a que mais se aproxima da realidade do escoamento.
+De todos os resultados de velocidade obtidos esse é o mais próximo de uma parábola, sendo possível nota-la de maneira clara somente com os vetores, indicando que essa simulação é a que mais se aproxima da realidade do escoamento.
 
 Distribuição de velocidade:
 
@@ -244,7 +244,7 @@ Assim como na primeira simulação, o contorno mostrou uma perda de carga grande
 Gráfico de velocidade: 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/PerfilVelocidade3.png)
 
-Aqui vemos outro gráfico de velocidade parabólico, dentre os 3 gráficos obtidos este e o que mais se aproxima de uma parábola.
+Aqui novamente a parábola e mais claramente visível que na primeira simulação, e o motivo para isto e o mesmo que na segunda simulação, já que foi observado que o escoamento já começou plenamente desenvolvido nesta simulação.
 
 ## A simulação fornece resultados qualitativos?
 
