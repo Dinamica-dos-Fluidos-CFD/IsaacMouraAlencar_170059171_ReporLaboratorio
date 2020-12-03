@@ -258,4 +258,10 @@ Sim, a simulação teve como resultado diversos valores como velocidade e press�
 
 Dentre todas as simulações a primeira foi a que obteve resultados mais próximos da realidade devido as condições de contorno utilizadas, tal afirmação e reforçada pela distribuição parabólica de velocidade e pela “demora” para se alcançar um escoamento plenamente desenvolvido. A segunda também obteve resultados bons, contudo devido a pressão ter sido definida através das condições de contorno ela provavelmente representa um escoamento com vazão mássica diferente da descrita no problema. Já a terceira simulação devido a mistura das condições de contorno da primeira e da segunda, não condiz com a realidade possuindo um escoamento plenamente desenvolvido desde o seu início.
 
+## Estudo paramétrico:
+Para realização do estudo com parâmetro utilizou-se das condições de contorno com melhores resultados (input e output com vazão mássica). Os tamanhos de elemento de malha utilizados foram respectivamente 5 valores igualmente espaçados entre 30mm e 70mm de tamanho de elemento de malha, assim como de 2 valores significativamente distante destes 5 para contraste de respectivamente 5mm e 150mm. Os resultados obtidos quanto a qualidade de malha e perda de carga são descritos na seguinte tabela:
+
+![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/TabelaParametrico.png)
+
+Como pode ser observado a qualidade da malha variou pouco nos intervalos de 30mm a 70mm, e também não variou com um tamanho muito grande(150mm), mas quando foi reduzida a 5mm a qualidade ortogonal da malha caiu para um valor muito baixo, enquanto o “skewness” se manteve próximo do que era anteriormente. Tal mudança na qualidade da malha foi refletida no resultado obtido para perda de carga.
 
