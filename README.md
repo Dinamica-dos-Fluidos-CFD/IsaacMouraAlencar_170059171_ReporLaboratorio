@@ -175,7 +175,7 @@ Gráfico da perda de carga:
 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/PerdaDeCarga1Real.png)
 
-Diferentemente da representação anterior, aqui foi obtido um resultado que possivelmente valida a hipótese sugerida no início do problema, com uma perda de carga de aproximadamente 1,5 (muito mais próximo de 2Pa que 3.459). Tal discrepância pode ser explicada pelo gráfico possuir resultados mais locais enquanto o contorno utiliza de resultados mais globais. Por consequência o gráfico possui o resultado mais preciso e esse será o utilizado na análise.
+Diferentemente da representação anterior, aqui foi obtido um resultado que possivelmente valida a hipótese sugerida no início do problema, com uma perda de carga de 1,9 (muito mais próximo de 2Pa que 3.459). Tal discrepância pode ser explicada pelo gráfico possuir resultados mais locais enquanto o contorno utiliza de resultados mais globais. Por consequência o gráfico possui o resultado mais preciso e esse será o utilizado na análise.
 
 Gráfico de velocidade: 
 ![]( https://github.com/Dinamica-dos-Fluidos-CFD/IsaacMouraAlencar_170059171_ReporLaboratorio/blob/master/PerfilVelocidade1.png)
