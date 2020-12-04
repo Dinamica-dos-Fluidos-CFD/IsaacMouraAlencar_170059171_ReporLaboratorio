@@ -265,3 +265,6 @@ Para realização do estudo com parâmetro utilizou-se das condições de contor
 
 Como pode ser observado a qualidade da malha variou pouco nos intervalos de 30mm a 70mm, e também não variou com um tamanho muito grande(150mm), mas quando foi reduzida a 5mm a qualidade ortogonal da malha caiu para um valor muito baixo, enquanto o “skewness” se manteve próximo do que era anteriormente. Tal mudança na qualidade da malha foi refletida no resultado obtido para perda de carga.
 
+### Conclusão:
+
+A partir da análise dos resultados obtidos pode ser concluído que a perda de carga relatada e normal para a instalação especificada, assim como que para este problema o tamanho do elemento de malha e de baixo impacto a menos que o mesmo possua tamanho muito pequeno.
